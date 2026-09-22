@@ -1,120 +1,54 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
-namespace ConsoleApp8
+namespace ConsoleApp1
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Animal cat = new Animal("catr", 10, "namer");
-            
-            Console.WriteLine(cat.getInfo());
-            
-            Console.In.ReadLine();
 
 
         }
     }
 
-
-    public class Animal
+    abstract class Delivery
     {
-        private string type;
-        private int age;
-        private string name;
-        private string sound;
+        protected string name;
+        protected decimal price;
 
-        public Animal(string Type, int Age, string Name)
-        {
-            type = Type;
-            age = Age;
-            name = Name;
-        }
-        public Animal()
-        {
-
-        }
-
-        public string Type
-        {
-            get { return type; }
-            set 
-            {
-                if(value == null || value == "")
-                {
-                    Console.WriteLine("You have to enter a type");
-                }
-                else
-                {
-                    type = value;
-                }
-            }
-        }
-
-        public int Age
-        {
-            get { return age; }
+        public string Name{
+            get { return Name; }
             set
             {
-                if (value == null || value >= 100)
+                if (value != "" && value != null)
                 {
-                    Console.WriteLine("You have entered invalid value");
-
-                }
-                else
-                {
-                    age = value;
-                }
-            }
-        }
-        
-        public string Name
-        {
-            get { return name; }
-            set
-            {
-                if (value == null || value == "")
-                {
-                    Console.WriteLine("You have to enter a name");
-                }
-                else
-                {
-                    name = value;
+                    Name = value;
                 }
             }
         }
 
-        public string Sound
+        public decimal Price
         {
-            get { return sound; }
-            set
-            {
-                if (value == null || value == "")
-                {
-                    Console.WriteLine("You have to enter a sound");
-
-                }
-                else
-                {
-                    sound = value;
-                }
-            }
+            get { return price; }
         }
+        public abstract decimal CalculatePrice(decimal basePrice);
 
-
-        public string getInfo()
+        public override string ToString()
         {
-            return $"Вид: {type}\nВозраст {age}\nКличка {name}";
+            return $"Name: {name} Price: {price}";
         }
-
-
-        public string sayHello()
+    }
+    
+    class StandardDelivery : Delivery()
+    {
+        public override decimal CalculatePrice(decimal basePrice)
         {
-            return sound;
+            return basePrice;
         }
     }
 }
