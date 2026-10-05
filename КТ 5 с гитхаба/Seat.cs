@@ -22,5 +22,10 @@ namespace ConsoleApp11
                 Console.WriteLine("Место уже занято");
             }
         }
+        public Seat(int number)
+        {
+            Number = number;
+            isOccupied = false;
+        }
     }
 }
