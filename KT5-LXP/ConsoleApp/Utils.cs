@@ -8,9 +8,11 @@ namespace ConsoleApp
 {
     internal class Utils
     {
-        static void Swap(ref T a, ref T b)
+        public static void Swap<T>(ref T a, ref T b)
         {
-            
+            T temp = a;
+            a = b;
+            b = temp;
         }
     }
 }
