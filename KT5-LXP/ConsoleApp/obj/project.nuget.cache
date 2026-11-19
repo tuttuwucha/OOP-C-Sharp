@@ -1,10 +1,20 @@
 {
   "version": 2,
-  "dgSpecHash": "kqdv3LRppQOwreUtvAfIJrIv6kIosSCT8a561SmnCjrn099Pn5X2D84luL9GGF3EvVwVGm3SddfNtE2wDIH+WQ==",
+  "dgSpecHash": "UMxuf5ZPTqE=",
   "success": true,
-  "projectFilePath": "/home/tuttuwucha/Projects/csharp/OOP-C-Sharp/KT5-LXP/ConsoleApp/ConsoleApp.csproj",
+  "projectFilePath": "/home/tuttuwucha/Documents/OOP-C-Sharp/KT5-LXP/ConsoleApp/ConsoleApp.csproj",
   "expectedPackageFiles": [
-    "/home/tuttuwucha/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.33/microsoft.aspnetcore.app.ref.8.0.33.nupkg.sha512"
+    "/home/tuttuwucha/.nuget/packages/microsoft.aspnetcore.app.ref/10.0.14/microsoft.aspnetcore.app.ref.10.0.14.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "projectPath": "/home/tuttuwucha/Documents/OOP-C-Sharp/KT5-LXP/ConsoleApp/ConsoleApp.csproj",
+      "warningLevel": 1,
+      "filePath": "/home/tuttuwucha/Documents/OOP-C-Sharp/KT5-LXP/ConsoleApp/ConsoleApp.csproj",
+      "targetGraphs": []
+    }
+  ]
 }
