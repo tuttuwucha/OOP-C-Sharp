@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp11
+namespace ConsoleApp
 {
     class Program
     {
@@ -22,7 +22,6 @@ namespace ConsoleApp11
             {
                 notifier.Send("Интерфейсы — это круто!");
             }
-            Console.ReadLine();
         }
     }
     

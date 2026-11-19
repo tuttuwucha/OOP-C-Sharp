@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Taq68omI1vE=",
+  "success": true,
+  "projectFilePath": "/home/tuttuwucha/Documents/OOP-C-Sharp/КТ4-LXP/Zadaniya-po-structuram/Уровень 3/ConsoleApp/ConsoleApp.csproj",
+  "expectedPackageFiles": [
+    "/home/tuttuwucha/.nuget/packages/microsoft.aspnetcore.app.ref/10.0.14/microsoft.aspnetcore.app.ref.10.0.14.nupkg.sha512"
+  ],
+  "logs": []
+}
