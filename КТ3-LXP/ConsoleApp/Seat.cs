@@ -9,7 +9,7 @@ namespace ConsoleApp
     class Seat
     {
         public int Number { get; set; }
-        public bool isOccupied { get; set; }
+        public bool isOccupied { get; private set; }
         public void Reserve()
         {
             if (!isOccupied)

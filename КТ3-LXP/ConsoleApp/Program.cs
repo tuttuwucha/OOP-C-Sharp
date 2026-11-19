@@ -12,13 +12,13 @@ namespace ConsoleApp
         {
             Movie movie = new Movie("Опенгеймер", 100);
 
-            CinemaHall cinemaHall = new CinemaHall(movie, 25);
+            CinemaHall cinemaHall = new CinemaHall(movie, 10);
             
             Console.WriteLine(cinemaHall.ToString());
 
             Console.WriteLine();
 
-            BookingService.Reserve(cinemaHall, 15);
+            BookingService.Reserve(cinemaHall, 5);
 
             Console.WriteLine(cinemaHall.ToString());
 

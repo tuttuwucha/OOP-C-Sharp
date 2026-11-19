@@ -16,5 +16,10 @@ namespace ConsoleApp
             Title = title;
             Duration = duration;
         }
+
+        public override string ToString()
+        {
+            return $"{Title} ({Duration} мин.)";
+        }
     }
 }
