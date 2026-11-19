@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp11
+namespace ConsoleApp
 {
     class Program
     {
@@ -16,11 +16,13 @@ namespace ConsoleApp11
             
             Console.WriteLine(cinemaHall.ToString());
 
+            Console.WriteLine();
+
             BookingService.Reserve(cinemaHall, 15);
 
             Console.WriteLine(cinemaHall.ToString());
 
-            Console.ReadLine();
+            
         }
     }
 }

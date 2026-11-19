@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-namespace ConsoleApp11
+namespace ConsoleApp
 {
     class Movie
     {
