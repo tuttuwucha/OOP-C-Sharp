@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/tuttuwucha/Documents/OOP-C-Sharp/rabota-na-pare/ConsoleApp.csproj": {}
+    "/home/tuttuwucha/Documents/OOP-C-Sharp/KT7-LXP/ConsoleApp.csproj": {}
   },
   "projects": {
-    "/home/tuttuwucha/Documents/OOP-C-Sharp/rabota-na-pare/ConsoleApp.csproj": {
+    "/home/tuttuwucha/Documents/OOP-C-Sharp/KT7-LXP/ConsoleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/tuttuwucha/Documents/OOP-C-Sharp/rabota-na-pare/ConsoleApp.csproj",
+        "projectUniqueName": "/home/tuttuwucha/Documents/OOP-C-Sharp/KT7-LXP/ConsoleApp.csproj",
         "projectName": "ConsoleApp",
-        "projectPath": "/home/tuttuwucha/Documents/OOP-C-Sharp/rabota-na-pare/ConsoleApp.csproj",
+        "projectPath": "/home/tuttuwucha/Documents/OOP-C-Sharp/KT7-LXP/ConsoleApp.csproj",
         "packagesPath": "/home/tuttuwucha/.nuget/packages/",
-        "outputPath": "/home/tuttuwucha/Documents/OOP-C-Sharp/rabota-na-pare/obj/",
+        "outputPath": "/home/tuttuwucha/Documents/OOP-C-Sharp/KT7-LXP/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/tuttuwucha/.nuget/NuGet/NuGet.Config"

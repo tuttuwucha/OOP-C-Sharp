@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cnAqSxQWX/o=",
+  "dgSpecHash": "J4EsVCPCxwo=",
   "success": true,
-  "projectFilePath": "/home/tuttuwucha/Documents/OOP-C-Sharp/rabota-na-pare/ConsoleApp.csproj",
+  "projectFilePath": "/home/tuttuwucha/Documents/OOP-C-Sharp/KT7-LXP/ConsoleApp.csproj",
   "expectedPackageFiles": [
     "/home/tuttuwucha/.nuget/packages/microsoft.aspnetcore.app.ref/10.0.14/microsoft.aspnetcore.app.ref.10.0.14.nupkg.sha512"
   ],
