@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Cryptography;
@@ -25,7 +25,7 @@ namespace ConsoleApp
         static void Main(string[] args)
         {
             Book b = new Book();
-            b.Title = "";
+            b.Title = "Преступление и наказание";
             b.Pages = 500;
             b.PrintInfo();
 
